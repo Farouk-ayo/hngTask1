@@ -1,5 +1,22 @@
 .body {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+  position: relative;
+  margin: 2rem 5rem;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 48rem) {
+  .body {
+    margin: 2rem 0rem;
+  }
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
 }

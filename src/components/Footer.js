@@ -1,13 +1,13 @@
-// import classes from "./Footer.module.css";
-import vector from "../images/vector.png";
+import classes from "./Footer.module.css";
+import i4g from "../images/I4G.png";
 import vector2 from "../images/Vector2.png";
 
 const Footer = () => {
   return (
-    <footer>
-      <img src={vector} alt="" />
-      <p>HNG internship 9 Frontend Task</p>
+    <footer className={classes.footer}>
       <img src={vector2} alt="" />
+      <p>HNG internship 9 Frontend Task</p>
+      <img src={i4g} alt="" />
     </footer>
   );
 };

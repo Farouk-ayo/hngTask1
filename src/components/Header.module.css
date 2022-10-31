@@ -14,7 +14,29 @@
   position: absolute;
   right: 20%;
 }
+@media (max-width: 48rem) {
+  .share {
+    display: none;
+  }
+}
+.shareMobile {
+  position: absolute;
+  display: none;
+}
+@media (max-width: 48rem) {
+  .shareMobile {
+    display: inline-block;
+    position: absolute;
+    right: 20%;
+  }
+}
 
-#slack{
-  display: hidden;
+#slack {
+  display: none;
+}
+
+#profile__img {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
 }
