@@ -19,15 +19,15 @@ const Body = () => {
       >
         <p> Checkout my book in stock</p>
       </a>
-      <a href="https://background.zuri.team" id={style["book__design"]}>
+      <a href="https://background.zuri.team" id={style["pitch"]}>
         <p>We offer a prize to coders with maximum efficiency</p>
       </a>
       <a href="https://books.zuri.team/design-rules" id={style["book__design"]}>
         <p>Design books offered by Zuri</p>
       </a>
       <div className={style.socials}>
-        <img src={icon} alt="" />
         <img src={slack} alt="" />
+        <img src={icon} alt="" />
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import classes from "./Footer.module.css";
 import i4g from "../images/I4G.png";
-import vector2 from "../images/Vector2.png";
+import vector2 from "../images/vecto.png";
 
 const Footer = () => {
   return (
