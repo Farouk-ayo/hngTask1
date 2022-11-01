@@ -5,7 +5,9 @@ import slack from "../images/slack.png";
 const Body = () => {
   return (
     <div className={style.body}>
-      <a href="https://twitter.com/eff_r_k">Twitter Link</a>
+      <a href="https://twitter.com/eff_r_k" id={style["twitter"]}>
+        Twitter Link
+      </a>
       <a href="https://training.zuri.team/" id={style["btn__zuri"]}>
         Zuri Team
       </a>

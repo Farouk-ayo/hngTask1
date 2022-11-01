@@ -12,7 +12,7 @@ const Header = () => {
       <img className={style.shareMobile} src={shareMobile} alt="" />
       <header className={style.header}>
         <img src={profile} id={style["profile__img"]} alt="" />
-        <h1 id={style["twitter"]}>eff_r_k</h1>
+        <h1 >eff_r_k</h1>
         <h1 id={style["slack"]}> mustaphafarouk41</h1>
       </header>
     </React.Fragment>
