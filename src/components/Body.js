@@ -14,7 +14,7 @@ const Body = () => {
         <p>A place where you can find books about design and coding</p>
       </a>
       <a
-        href="https://books.zuri.team/python-for-beginners?ref_id=<mustapha farouk>"
+        href="https://books.zuri.team/python-for-beginners?ref_id=<faroukayo>"
         id={style["book__python"]}
       >
         <p> Checkout my book in stock</p>
