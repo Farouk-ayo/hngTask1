@@ -17,13 +17,13 @@ const Body = () => {
         href="https://books.zuri.team/python-for-beginners?ref_id=<faroukayo>"
         id={style["book__python"]}
       >
-        <p> Checkout my book in stock</p>
+        <p>Python Books</p>
       </a>
       <a href="https://background.zuri.team" id={style["pitch"]}>
-        <p>We offer a prize to coders with maximum efficiency</p>
+        <p>Background Check for Coders</p>
       </a>
       <a href="https://books.zuri.team/design-rules" id={style["book__design"]}>
-        <p>Design books offered by Zuri</p>
+        <p>Design books</p>
       </a>
       <div className={style.socials}>
         <img src={slack} alt="" />
